@@ -1,3 +1,8 @@
+@media only screen and (max-width: 991px) {
+    .aSection{
+        flex-basis: 30%;
+    }
+}
 @media only screen and (max-width: 768px) {
     #left {
         left: 0;
@@ -71,6 +76,9 @@
     .line::before {
         display: none;
     }
+    .aSection {
+        flex-basis: 50%;
+    }
 }
 @media only screen and (max-width: 625px) {
     #left {
@@ -87,13 +95,16 @@
 	#headerUpMobile #navMobile li {
         font-size: 1em;
     } 
-	/* #left{
-	    left:0;
-	}
-	#right {  
-	    right: 0;
-	}   */
 	.naslov{
 		font-size:1.8em;
+    }
+    .aSection{
+        flex-basis: 100%;
+    }
+	 #titleAbout{
+        width: 90%;
+    }
+    #titleAbout p{
+	    margin: 51.2px auto 16px 16px;
 	}
 }
