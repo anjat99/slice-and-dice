@@ -62,7 +62,9 @@ img{
     position: relative;  
     margin: auto;  
 }  
-#left, #right, #down {  
+#left, 
+#right, 
+#down {  
     cursor: pointer;  
     position: absolute;  
     top: 50%;  
@@ -144,7 +146,8 @@ img{
     right: 15%;  
     border-radius: 3px 0 0 3px;  
 }  
-#left:hover, #right:hover {  
+#left:hover, 
+#right:hover {  
     background-color: rgba(172, 168, 168, 0.1);  
 }  
 .content {  
@@ -155,8 +158,12 @@ img{
     width: 100%;  
     text-align: center;  
 }  
-.active {  
+/* .active {  
     background-color: #717171; 
+    border-color: #666; 
+}  */
+.circle.active {  
+    background-color: #3d3b3b; 
     border-color: #666; 
 } 
 
@@ -233,12 +240,12 @@ strong{
 .content p{
     line-height: 20px;
     font-family: fontOther;
-/*     font-size: 15px; */
     font-size: 1.2em;
     margin-top: 15px;
 }
 .button {
-    background: transparent;
+    /* background: transparent; */
+    background: 0 0;
     border: 0;
     color: inherit;
     display: inline-block;
@@ -252,7 +259,8 @@ strong{
     text-decoration: none;
     user-select: none;
 }
-.btnHeaderInner, .btnInner {
+.btnHeaderInner, 
+.btnInner {
     align-items: center;
     background: var(--babyBlue);
     border: 2px solid transparent;
@@ -293,29 +301,34 @@ strong{
     width: 80%;
     margin: 0 auto;
 }
-#logo, #logoMobile {
+#logo,
+#logoMobile {
     padding: 10px;
 }
-#logo a, #logoMobile a{
+#logo a, 
+#logoMobile a{
     color: var(--white);
     font-weight: bolder;
     font-size: 1.7em;
     font-family: fontLogo;
 }
 
-#nav, #navMobile{
+#nav, 
+#navMobile{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
-#nav li, #navMobile li{
+#nav li, 
+#navMobile li{
     padding: 20px 10px 20px 10px;
     text-transform: uppercase;
     color: var(--white);
     font-family: fontOther;
     font-size: .8em;
 }
-#nav li a, #navMobile li a{
+#nav li a, 
+#navMobile li a{
     color: var(--white);
 }
 #visIn{
