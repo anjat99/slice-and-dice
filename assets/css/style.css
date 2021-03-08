@@ -218,7 +218,8 @@ img{
 	margin-left: 16px;
     font-size: 3em;
     font-family: 'font';
-    font-weight: normal;
+    /* font-weight: normal; */
+    font-weight: 400;
 }
 strong{
     font-family: FontLogo;
@@ -342,5 +343,43 @@ strong{
 /*#endregion */
 
 /* #REGION ABOUT */
-
+#titleAbout{
+    text-align: center;
+    margin-bottom: 7%;
+	margin-top: 19.2px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#titleAbout h2{
+    font-family: font;
+	font-size: 2.5em;
+	margin-bottom: 14.4px;
+	margin-top: 19.2px;
+    color: rgb(192, 188, 188);
+}
+#titleAbout p{
+    font-family: fontOther;
+	font-size: 1em;
+	margin-bottom:11.2px;
+	margin-top: 51.2px;
+    /* color:rgb(129, 127, 127); */
+    color:#817f7f;
+}
+.line {
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    /* font-weight:bold ; */
+    font-weight:700 ;
+    text-align:center;
+}
+.line::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: var(--babyBlue);
+}
 /*#endregion*/
