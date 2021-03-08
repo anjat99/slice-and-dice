@@ -364,14 +364,12 @@ strong{
 	font-size: 1em;
 	margin-bottom:11.2px;
 	margin-top: 51.2px;
-    /* color:rgb(129, 127, 127); */
     color:#817f7f;
 }
 .line {
     display:flex;
     justify-content:center;
     align-items:center; 
-    /* font-weight:bold ; */
     font-weight:700 ;
     text-align:center;
 }
@@ -381,5 +379,67 @@ strong{
     width: 30px;
     height: 2px;
     background: var(--babyBlue);
+}
+#aboutSections{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.aSection{
+    flex-basis: 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.img{
+    width:130px;
+    height: 130px;
+    border-radius:50%;
+    background: rgba(228, 225, 225, 0.55);
+    text-align: center;
+}
+.img:hover{
+    background:var(--babyGreen);
+    cursor: pointer;
+}
+.img img {
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    margin: 38px;
+}
+.descSection{
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 10px;
+}
+.descSection p, .descSection h3{
+	margin-top: 20.8px;
+    text-align: center;
+    font-family: fontSections;
+}
+.descSection h3{
+    color: rgb(124, 124, 124);
+}
+.descSection p{
+    line-height: 1.5;
+	font-size: 1em;
+    color:rgb(129, 127, 127);
+}
+.mbBtn{
+	margin-bottom: 80px;
+}
+.btnInner{
+    background: var(--babyGreen);
+}
+.aboutBtn{
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 /*#endregion*/
